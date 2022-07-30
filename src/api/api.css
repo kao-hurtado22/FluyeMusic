@@ -1,7 +1,8 @@
-body{
+body {
     background-image: url("https://images2.alphacoders.com/487/487124.jpg");
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
 .btn.dropdown-toggle {
@@ -17,6 +18,7 @@ span.caret {
 
 label {
     padding-top: 5px;
+    color: white;
 }
 
 .form-label {
@@ -24,12 +26,13 @@ label {
 }
 
 img {
-    width: 140px;
-    height: 140px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
 }
 
 .btn-success {
-    background-color: #3b7d4a !important;
+    background-color: rgba(108, 255, 3, 0.589) !important;
 }
 
 .btn-success:hover {
@@ -38,4 +41,5 @@ img {
 
 img.track {
     border: 1px solid #8a8a8a;
-}
+} 
+
