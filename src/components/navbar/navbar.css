@@ -4,9 +4,14 @@ img.logo-nav {
 
 .navbar-expand-lg .navbar-collapse {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     margin: 5px;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+img, svg {
+    vertical-align: middle;
+    margin: 10px;
 }
 
 /* STYLE BUTTON INICIO DE SESION */

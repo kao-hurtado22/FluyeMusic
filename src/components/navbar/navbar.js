@@ -3,6 +3,9 @@ import React from 'react';
 import Logo from '../../media/fluyemusic-blanconegro.png';
 import './navbar.css';
 
+/* IMPORT REACT-ICON */
+import { FaSearch } from 'react-icons/fa';
+
 
 
 const Navbar = () => {
@@ -26,30 +29,30 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active text-white" aria-current="page" href="#">
-                FluyeMusic
+              <a className="nav-link active text-white" aria-current="page" href="http://127.0.0.1:5500/src/api/api.html">
+                <FaSearch/>Busca tu musica
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                Genero
+                Categorias
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="http://127.0.0.1:5500/src/components/view/albunes/albunes.html">
-                Albunes
+                Playlist de Categoria
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                Artistas
+                Item de Playlist
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link text-white" href="#">
-                PlayList
+                Track
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className='nav-button'>
