@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap';
 import React from 'react';
 import Logo from '../../media/fluyemusic-blanconegro.png';
 import './navbar.css';
@@ -9,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-black">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                <img className='logo-nav' src={Logo} alt="" width="120" height="100" />
+                    <img className='logo-nav' src={Logo} alt="" width="120" height="100" />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -26,20 +27,33 @@ const Navbar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link active text-white" aria-current="page" href="#">
-                                Home
+                                FluyeMusic
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#">
-                                Features
+                                | Artistas
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link text-white" href="http://127.0.0.1:5500/src/components/registrarse/registrarse.html">
+                                | Registrarte
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link text-white" href="#">
-                                Pricing
+
                             </a>
                         </li>
                     </ul>
+                    <a href='http://127.0.0.1:5500/src/components/login/login.html'>
+                        <button>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span> Iniciar Sesión
+                        </button>
+                    </a>
                 </div>
             </div>
         </nav>
