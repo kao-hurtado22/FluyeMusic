@@ -4,14 +4,15 @@ img.logo-nav {
 
 .navbar-expand-lg .navbar-collapse {
     display: flex;
-    justify-content: end;
-    margin: 20px;
-    font-size: 20px;
+    justify-content: center;
+    margin: 5px;
+    font-size: 15px;
 }
 
 /* STYLE BUTTON INICIO DE SESION */
 button {
     position: relative;
+    margin: 5px;
     padding: 1em 1.8em;
     outline: none;
     border: 1px solid #303030;
