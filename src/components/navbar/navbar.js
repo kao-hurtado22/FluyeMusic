@@ -71,6 +71,14 @@ const Navbar = () => {
               <span></span>
               <span></span> Iniciar Sesión
             </button>
+            </a>
+            <a href='C:\Users\freem\OneDrive\Escritorio\FluyeMusic-master (1)\FluyeMusic\src\components\modal\ventana.html'>
+            <button>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span> ?
+            </button>
           </a>
         </div>
       </div>
