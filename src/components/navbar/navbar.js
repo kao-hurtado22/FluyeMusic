@@ -1,6 +1,6 @@
 import { Button } from 'bootstrap';
 import React from 'react';
-import Logo from '../../media/fluyemusic-blanconegro.png';
+import Logo from '../../media/fluyemusic-blanconegro2.png';
 import './navbar.css';
 
 /* IMPORT REACT-ICON */
@@ -33,26 +33,6 @@ const Navbar = () => {
                 <FaSearch/>Busca tu musica
               </a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link text-white" href="#">
-                Categorias
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="http://127.0.0.1:5500/src/components/view/albunes/albunes.html">
-                Playlist de Categoria
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#">
-                Item de Playlist
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-white" href="#">
-                Track
-              </a>
-            </li> */}
           </ul>
         </div>
         <div className='nav-button'>
