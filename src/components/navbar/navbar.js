@@ -30,7 +30,7 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active text-white" aria-current="page" href="http://127.0.0.1:5500/src/api/api.html">
-                <FaSearch/>Busca tu musica
+                <FaSearch />Busca tu musica
               </a>
             </li>
           </ul>
@@ -41,7 +41,7 @@ const Navbar = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span></span> Registrarte
+              <span></span> Registrate
             </button>
           </a>
           <a href='http://127.0.0.1:5500/src/components/login/login.html'>
