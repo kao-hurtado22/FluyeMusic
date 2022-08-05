@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FluyeMusic/static/css/main.62f621eb.css",
+    "main.js": "/FluyeMusic/static/js/main.8f155c55.js",
+    "static/js/787.05a2dfe3.chunk.js": "/FluyeMusic/static/js/787.05a2dfe3.chunk.js",
+    "static/media/music1.mp4": "/FluyeMusic/static/media/music1.4b8a18ce45ae8b296687.mp4",
+    "static/media/fluyemusic-blanconegro2.png": "/FluyeMusic/static/media/fluyemusic-blanconegro2.b438847810b58bae32f6.png",
+    "index.html": "/FluyeMusic/index.html",
+    "main.62f621eb.css.map": "/FluyeMusic/static/css/main.62f621eb.css.map",
+    "main.8f155c55.js.map": "/FluyeMusic/static/js/main.8f155c55.js.map",
+    "787.05a2dfe3.chunk.js.map": "/FluyeMusic/static/js/787.05a2dfe3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62f621eb.css",
+    "static/js/main.8f155c55.js"
+  ]
+}
