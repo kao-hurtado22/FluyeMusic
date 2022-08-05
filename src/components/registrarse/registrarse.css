@@ -4,15 +4,18 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: url(https://images5.alphacoders.com/384/384304.jpg) no-repeat center center fixed;
+	background: url(https://images5.alphacoders.com/384/384304.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
-	max-width: 800px;
-	width: 90%;
+	max-width: 830px;
+	width: 100%;
 	margin: auto;
     /* margin-top: 80px; */
-	padding: 70px;
+	padding: 40px;
 }
 .title{
     text-align: center;
@@ -50,6 +53,7 @@ main {
 	padding: 0 40px 0 10px;
 	transition: .3s ease all;
 }
+::placeholder { color: rgb(255, 255, 255);}
 
 .formulario__input:focus {
 	border: 3px solid #0075FF;
@@ -65,6 +69,7 @@ main {
 
 .formulario__input-error-activo {
 	display: block;
+    color: white;
 }
 
 .formulario__validacion-estado {
@@ -113,7 +118,7 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 20%;
-	background: #000;
+	background: #2c00ad;;
 	color: #fff;
 	font-weight: bold;
 	border: none;
